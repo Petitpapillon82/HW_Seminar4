@@ -15,7 +15,7 @@ array[i] = r.Next(-10, 11);
 Console.Write(" " + array[i] + " ");
 }
 Console.Write("]\n"); // \n - знак новой строки
-int max = int.MinValue;
+int max = array[0]; //int max = int.MinValue;
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i] > max)
