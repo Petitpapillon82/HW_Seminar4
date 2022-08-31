@@ -2,6 +2,8 @@
 //1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 //6, 1, 33 -> [6, 1, 33]
 
+//Второй вариант решения, где элементов n, и их можно задать самому. 
+
 Console.Clear();
 Console.Write("Введите число элементов массива: ");
             int n = Convert.ToInt32(Console.ReadLine()); 
@@ -14,7 +16,6 @@ Console.Write("Введите число элементов массива: ");
             Console.WriteLine("Полученный массив: ");
             Console.Write("[");
             for (int i = 0; i < n; i++)
-          
             {
                
                 Console.Write(" " + MyArray[i] + " ");
